@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kvetky</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <script type="text/javascript" src="../assets/js/vendor/popper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/jquery-slim.min.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <header class="container-fluid header">
+      <section class="row header_line">                                     <!--*header line-->
+        <div class="col-sm-4 col-lg-4 header_line__weather">
+          <div class="header_line__weather__icon"></div>
+          <div class="header_line__weather__text"></div>
+        </div>
+        <div class="col-sm-4 col-lg-5 header_line__control">
+          <div class="header_line__control__button-active"></div>
+          <div class="header_line__control__button"></div>
+          <div class="header_line__control__button"></div>
+        </div>
+        <div class="col-sm-4 col-lg-3 header_line__social">
+          <ul class="social">
+            <li class="social_icon">
+              <a href="#" class="social_icon__instagram"></a>
+            </li>
+            <li class="social_icon">
+              <a href="#" class="social_icon__skype"></a>
+            </li>
+            <li class="social_icon">
+              <a href="#" class="social_icon__viber"></a>
+            </li>
+            <li class="social_icon">
+              <a href="#" class="social_icon__whatsup"></a>
+            </li>
+            <li class="social_icon">
+              <a href="#" class="social_icon__vk"></a>
+            </li>
+            <li class="social_icon">
+              <a href="#" class="social_icon__facebook"></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="row weather">                                                     <!--Weather line-->
+        <div class="col weather_icon"><a href="#" class="weather_today"><img src="image/icon/weather_light.png" class="img-fluid" width="70%" height="70%" alt="weather"></a></div>
+        <div class="col weather_text"><p class="weather_text__margin_p">+22°С</p>
+          <p>Вторник</p></div>
+      </div>
+      <section class="row">                                                         <!--BG & BUTTONS line-->
+        <div class="view">
+          <img src="image/fone_v2.jpg" class="img-fluid" alt="fone">
+            <div class="col buttuns_main">
+                <a target="_blank" href="#" class=" btn btn-reservation btn-lg p-2">БРОНИРОВАНИЕ<img src="image/icon/reserv.png" class="img-fluid reserv"></a>
+                <a target="_blank" href="#" class="btn btn-call btn-lg p-2">ОБРАТНЫЙ ЗВОНОК</a>
+            </div>
+        </div>
+      </section>
+      <div class="row">                                                            <!--SLIDER BOT line-->
+        <div class="col buttuns_slide">
+          <a href="#" class="btn btn-slide"><img src="image/icon/red.png" alt="slider"></a>
+        </div>
+      </div>
+      <nav class="row col-sm-12 col-lg-12 navbar navbar-expand-lg navbar-light bg-light">           <!--NAVBAR line-->
+        <a class="navbar-brand" href="#"><img src="image/icon/logo_nav.png" class="img-logo" width="60%" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ГЛАВНАЯ <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">НОМЕРА</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">КАФЕ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">БАЗА</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">КОНТАКТЫ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ГАЛЕРЕЯ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ПОЛЕЗНОЕ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">                                                         <!--LANGUAGE line-->
+        <div class="col-lg-11 lang_dropdown d-flex justify-content-end">
+          <div class="btn-group">
+            <button type="button" class="btn btn-lang">Русский</button>
+            <button type="button" class="btn btn-lang dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Беларускi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">English</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="middle_line">
+
+      <div class="middle_line__fone d-flex">
+        <img src="image/fone_middle_v2.jpg" width="100%" height="100%">
+        <div class="middle_line__top align-self-start"></div>
+        <div class="middle_line__middle align-self-center"></div>
+        <div class="middle_line__bottom align-self-end"></div>
+      </div>
+    </section>
+
+    <section class="info_card">
+      <div class="container-fluid middle_line__bottom__fail">
+        <div class="row middle_line__bottom__about">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8 middle_line__bottom__about__text p-2">
+            <p> <img src="image/about.png" class="middle_line__bottom__about__text__image"> Приезжайте в «Кветки Яблыни» и подарите
+              себе и близким гармонию, успокоение и единение с природой. </p>
+            <p>Это самое начало Вилейского водохранилища,
+              второго по величине водоема Беларуси (64,6 кв. км.).Комфортабельные домики расположены
+              на некотором расстоянии друг от друга, специально, чтобы обеспечить тишину и уединение гостям.</p>
+            <p>Уже зайдя в домик, Вы можете почувствовать преимущества натурального бруса, из которого сделаны дома: дерево сохраняет приятную прохладу летом и комфортное тепло зимой.</p>
+            <p>Все номера соответствуют современным мировым стандартам, оборудованы санузлами, душевыми и/или ваннами, удобной мебелью и всем необходимым. Любители активно проводить время наверняка воспользуются нашей инфраструктурой.</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+        <div class="container-fluid middle_line__bottom__services">
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 card-img-bottom_services">
+              <div class="card-block_caffe">
+                <a href="#" class="card-caffe"><img src="image/image/servises/caffe.png"></a>
+              </div>
+              <div class="card-block">
+                <a href="#" class="card-caffe"><img src="image/image/servises/caffe.png"></a>
+              </div>
+            </div>
+            <div class="col-lg-4 card-img-bottom_services">
+              <div class="card-block">
+                <a href="#" class="card-caffe"><img src="image/image/servises/caffe.png"></a>
+              </div>
+              <div class="card-block">
+                <a href="#" class="card-caffe"><img src="image/image/servises/caffe.png"></a>
+              </div>
+            </div>
+            <div class="col-lg-3 card-img-bottom_services">
+              <div class="card-block">
+                <a href="#" class="card-caffe"><img src="image/image/servises/caffe.png"></a>
+              </div>
+              <div class="card-block">
+                <a href="#" class="card-caffe"><img src="image/image/servises/caffe.png"></a>
+              </div>
+            </div>
+            <div class="col-lg-1"></div>
+          </div>
+        </div>
+        <div class="container-fluid buttuns_main__botton">
+          <div class="row">
+            <div class="col buttuns_main__green">
+              <a target="_blank" href="#" class=" btn btn-reservation btn-lg p-2">БРОНИРОВАНИЕ<img src="image/icon/reserv.png" class="img-fluid"></a>
+              <a target="_blank" href="#" class="btn btn-call_green btn-lg p-2">ОБРАТНЫЙ ЗВОНОК</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <foother>
+      <div class="foother_line">
+        <img src="image/fone_foother.png" width="100%" height="auto" class="foother_line__image">
+        <div class="container-fluid row foother_info d-flex">
+          <div class="col-md-1"></div>
+
+          <div class="col-md-3 foother_info__image align-self-center">
+            <img src="image/foother_img.png" class="img-fluid">
+          </div>
+          <div class="col-md-3 foother_info__menu">
+              <ul class="navbar-nav_menu">
+                <li class="nav-item_menu active">
+                  <a class="nav-link_menu" href="#">ГЛАВНАЯ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item_menu">
+                  <a class="nav-link_menu" href="#">НОМЕРА</a>
+                </li>
+                <li class="nav-item_menu">
+                  <a class="nav-link_menu" href="#">КАФЕ</a>
+                </li>
+                <li class="nav-item_menu">
+                  <a class="nav-link_menu" href="#">БАЗА</a>
+                </li>
+                <li class="nav-item_menu">
+                  <a class="nav-link_menu" href="#">КОНТАКТЫ</a>
+                </li>
+                <li class="nav-item_menu">
+                  <a class="nav-link_menu" href="#">ГАЛЕРЕЯ</a>
+                </li>
+                <li class="nav-item_menu">
+                  <a class="nav-link_menu" href="#">ПОЛЕЗНОЕ</a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-md-4 foother_info__text">
+            <p class="foother_info__text__p">Copyright © 2016 OOO «Кветки яблыни инвест»
+              УНП 691451295 на ОOО "Пансионат Кветки Яблыни"
+              УНП691830613 Юридический адрес:
+              223053, РБ, Минский р-н, пересечение Логойского
+              тракта и МКАД, Административное здание, к 207
+              Тел. +375 (29) 6520241
+              Режим работы базы отдыха: круглосуточно</p>
+            <div class="header_line__social">
+              <ul class="social">
+                <li class="social_icon">
+                  <a href="#" class="social_icon__instagram"></a>
+                </li>
+                <li class="social_icon">
+                  <a href="#" class="social_icon__skype"></a>
+                </li>
+                <li class="social_icon">
+                  <a href="#" class="social_icon__viber"></a>
+                </li>
+                <li class="social_icon">
+                  <a href="#" class="social_icon__whatsup"></a>
+                </li>
+                <li class="social_icon">
+                  <a href="#" class="social_icon__vk"></a>
+                </li>
+                <li class="social_icon">
+                  <a href="#" class="social_icon__facebook"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </foother>
+
+    <script type="text/javascript" src="js/card.js"></script>
+</body>
+</html>
