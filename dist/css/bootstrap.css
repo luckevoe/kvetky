@@ -549,6 +549,8 @@ template {
 
 .foother_line__image {
   position: absolute;
+  max-width: 100%;
+  height: 305px;
 }
 
 .foother_info__image {
@@ -3000,7 +3002,6 @@ input[type="button"].btn-block {
 
 .buttuns_main {
   position: absolute;
-  top: 480px;
   z-index: 2;
   display: -ms-flexbox;
   display: flex;
@@ -3008,11 +3009,11 @@ input[type="button"].btn-block {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+  margin: -200px 0 0;
 }
 
 .buttuns_slide {
   position: absolute;
-  top: 620px;
   z-index: 2;
   display: -ms-flexbox;
   display: flex;
@@ -3020,6 +3021,7 @@ input[type="button"].btn-block {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+  margin: -100px 0 0;
 }
 
 .buttuns_main__green {
